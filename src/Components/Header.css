@@ -1,0 +1,40 @@
+.header {
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 1rem 2rem;            
+    background-color: #FFFEF2;     
+    color: #222222;               
+  }
+  
+  .header nav {
+    display: flex;         
+    width: 100%;    
+    justify-content: space-between;
+    align-items: center;       
+  }
+  
+  .header button {
+    padding: 0.5rem 1rem;         
+    font-size: 1rem;               
+    background-color: transparent;    
+    color: #222222;                 
+    border: none;    
+    border: 3px solid #222222;
+    border-radius: 12px;               
+    cursor: pointer;       
+    outline: none;        
+  }
+
+  .header nav a {
+    margin: 0 1rem;               
+    text-decoration: none;        
+    color: #222222;              
+    font-size: 1rem;             
+  }
+  
+  .header .logo {
+    font-size: 2rem;              
+    font-weight: bold;             
+  }
+  

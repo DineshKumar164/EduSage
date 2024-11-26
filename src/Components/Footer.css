@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    color: #222222;
+  }
+  
+  hr {       
+    padding: 0;   
+    border-top: 1px solid #222222; 
+    width: 100%;             
+  }

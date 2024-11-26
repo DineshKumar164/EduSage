@@ -1,0 +1,76 @@
+.hero {
+    text-align: center;
+    padding: 10px;
+    background: #FFFEF2;
+    color: #222222;
+    position: relative; 
+  }
+  
+  .hero h2 {
+    font-size: 1.5rem;
+    position: absolute;             
+    top: 47%;                      
+    left: 48%;                     
+    transform: translate(-50%, -50%); 
+    z-index: 1;             
+    color: #FFFEF2;      
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    position: absolute;            
+    top: 50%;                       
+    left: 50%;                      
+    transform: translate(-50%, -50%); 
+    z-index: 1;       
+    color: #FFFEF2;               
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    position: absolute;            
+    top: 70%;                       
+    left: 80%;                      
+    transform: translate(-20%, -40%); 
+    z-index: 1;       
+    color: #FFFEF2;               
+  }
+
+  .hero .logo {
+    width: 100%;                   
+    height: auto;                   
+  }
+
+
+    .hero-buttons .btn-primary,
+    .hero-buttons .btn-secondary {
+    margin: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    }
+  
+  .btn-primary {
+    background: #FFFEF2;  ;
+    color: #222222;
+    position: absolute;            
+    top: 70%;                       
+    left: 80%;                      
+    transform: translate(-10%, 100%); 
+    z-index: 1;     
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: #FFFEF2;
+    border: none;
+    outline: 2px solid #FFFEF2; /* Added outline property */
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(100%, 100%);
+}
+  
